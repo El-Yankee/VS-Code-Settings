@@ -1,0 +1,72 @@
+{
+    // General Settings
+    "editor.wordWrap": "on",
+    "workbench.editor.enablePreview": false,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}", 
+    "editor.tabSize": 4,
+    "window.zoomLevel": 0,    
+    "editor.fontSize":  14,
+    "editor.cursorBlinking": "smooth", 
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    // HUD and Theme Modifications
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.fontFamily": "Fira Code",    
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "oneDarkPro.bold": true,
+    "oneDarkPro.vivid": true,    
+    // Better Comments
+    "better-comments.highlightPlainText": true,
+    "better-comments.multilineComments": true ,
+    "better-comments.tags": [
+
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+}
