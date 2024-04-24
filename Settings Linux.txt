@@ -1,77 +1,80 @@
 {
-    // General Settings
-    "files.autoSave": "afterDelay",
-    "editor.wordWrap": "on",
-    "editor.guides.bracketPairs": true,
-    "editor.guides.bracketPairsHorizontal": true,
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.tabSize": 4,
-    "editor.fontSize":  14,
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "explorer.confirmDelete": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.startupEditor": "none",
-    "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}", 
-    "window.zoomLevel": 0,    
-    // HUD and Theme Modifications
-    "editor.fontFamily": "Fira Code",    
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.productIconTheme": "fluent-icons",
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "oneDarkPro.bold": true,
-    "oneDarkPro.vivid": true,    
-    // Better Comments
-    "better-comments.highlightPlainText": true,
-    "better-comments.multilineComments": true ,
-    "better-comments.tags": [
-
-        {
-            "tag": "!",
-            "color": "#FF2D00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "?",
-            "color": "#3498DB",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "//",
-            "color": "#474747",
-            "strikethrough": true,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "todo",
-            "color": "#FF8C00",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "*",
-            "color": "#98C379",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        }
-    ],
+  // General Settings
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.tabSize": 4,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 79,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "git.confirmSync": false,
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}",
+  "window.zoomLevel": 0,
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  // HUD and Theme Modifications
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": false,
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  // Better Comments
+  "better-comments.highlightPlainText": true,
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
 }
