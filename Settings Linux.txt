@@ -5,7 +5,6 @@
   "editor.cursorSmoothCaretAnimation": "off",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontSize": 14,
-  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": true,
@@ -13,8 +12,10 @@
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 79,
   "explorer.confirmDelete": false,
-  "files.autoSave": "afterDelay",
   "git.confirmSync": false,
+  "git.suggestSmartCommit": false,
+  "gitlens.hovers.enabled": false,
+  "redhat.telemetry.enabled": false,
   "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}",
   "window.zoomLevel": 0,
   "workbench.editor.enablePreview": false,
@@ -77,4 +78,12 @@
       "italic": false
     }
   ],
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "discord.removeLowerDetails": true,
+  "discord.removeRemoteRepository": true,
+  "vscode-pets.petColor": "black",
+  "vscode-pets.petSize": "medium",
+  "mdb.confirmRunAll": false
 }
