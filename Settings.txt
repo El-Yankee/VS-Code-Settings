@@ -9,15 +9,14 @@
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": true,
   "editor.tabSize": 4,
+  "window.zoomLevel": 0,
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 79,
   "explorer.confirmDelete": false,
   "git.confirmSync": false,
   "git.suggestSmartCommit": false,
   "gitlens.hovers.enabled": false,
-  "redhat.telemetry.enabled": false,
   "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}${appName}",
-  "window.zoomLevel": 0,
   "workbench.editor.enablePreview": false,
   "workbench.startupEditor": "none",
   // HUD and Theme Modifications
@@ -78,12 +77,13 @@
       "italic": false
     }
   ],
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
   "discord.removeLowerDetails": true,
   "discord.removeRemoteRepository": true,
   "vscode-pets.petColor": "black",
   "vscode-pets.petSize": "medium",
-  "mdb.confirmRunAll": false
+  "mdb.confirmRunAll": false,
+  "database-client.autoSync": true,
+  "git.autofetch": true,
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "github.copilot.nextEditSuggestions.enabled": true
 }
